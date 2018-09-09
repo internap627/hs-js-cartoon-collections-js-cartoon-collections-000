@@ -1,4 +1,5 @@
 function dwarfRollCall(dwarves) {
+<<<<<<< HEAD
   var newArr = [];
   
   for(var i = 1 ; i <= dwarves.length ; i ++ ){
@@ -10,6 +11,15 @@ function dwarfRollCall(dwarves) {
   //Convert array to string- no space
   return newArr.join("");
 
+=======
+   var newArr = [];
+
+  for(var i = 1 ; i <= dwarves.length ; i ++ ){
+    newArr.push(`${i}. ${dwarves[i-1]}`);
+  }
+  
+  return newArr.join(" ");
+>>>>>>> e16cc56cada6a5a854ca309f0847cd0fdefd93e2
 
 
 }
